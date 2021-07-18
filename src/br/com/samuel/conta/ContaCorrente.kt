@@ -1,10 +1,10 @@
 package br.com.samuel.conta
 
 class ContaCorrente (
-    numero: Int,
-    agencia: String
+    pNumero: Int,
+    pAgencia: String
 
-        ) : Conta(){
+        ) : Conta(pNumero, pAgencia){
 
 
 }

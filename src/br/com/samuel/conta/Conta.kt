@@ -6,6 +6,8 @@ abstract class Conta (
    private var _saldo: Double = 0.0
 ) : MovimentacaoFinanceira {
 
+    abstract fun taxa(): Double
+
    private fun temSaldo(valor : Double) : Boolean {
         return (_saldo >= valor)
     }
